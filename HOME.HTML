@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Results Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="search-container">
+        <h1>Search Your Result</h1>
+        <input type="text" id="matric-no" placeholder="Enter Matric No">
+        <select id="session">
+            <option value="2020/2021">2020/2021</option>
+            <option value="2021/2022">2021/2022</option>
+            <option value="2022/2023">2022/2023</option>
+            <option value="2023/2024">2023/2024</option>
+        </select>
+        <select id="program">
+            <option value="Nursing">Nursing</option>
+        </select>
+        <select id="semester">
+            <option value="First Semester">First Semester</option>
+            <option value="Second Semester">Second Semester</option>
+        </select>
+        <button onclick="fetchResults()">Search</button>
+    </div>
+    <div id="result-container">
+        <!-- Result will be displayed here -->
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

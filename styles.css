@@ -1,0 +1,23 @@
+
+body, html {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+#search-container {
+  text-align: center;
+  padding: 20px;
+}
+
+#search-container input, #search-container select, #search-container button {
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+}
+
+#result-container {
+  margin-top: 20px;
+  text-align: center;
+}
